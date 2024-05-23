@@ -24,7 +24,7 @@ async function captureAndSend() {
         formData.append('image', blob, 'image.jpg'); // Append the Blob as 'image.jpg'
 
         try {
-            const response = await fetch('https://7f84-42-60-104-146.ngrok-free.app/analyze', {
+            const response = await fetch('replace_with_endpoint', {
                 method: 'POST',
                 body: formData
             });
