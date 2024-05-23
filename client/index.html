@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posture Detection App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>IoT Posture Detection Device</h1>
+    <div id="video-container">
+        <video id="video" autoplay playsinline></video>
+    </div>
+    <div id="message">Press start to begin detection</div>
+    <div>
+        <button id="start" onclick="startDetection()" >Start Detection</button>
+        <button id="stop" onclick="stopDetection()" hidden="true">Stop Detection</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
